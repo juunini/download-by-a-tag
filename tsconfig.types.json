@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./lib",
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "paths": {
+      "download-by-a-tag": ["./src/index.ts"]
+    }
+  },
+  "files": [
+    "./src/index.ts",
+  ],
+  "exclude": ["./src/**/*", "./__tests__/**/*"]
+}
