@@ -14,6 +14,7 @@ export default function ({ fileName, arrayBuffer, blob, mimeType = 'application/
   if (arrayBuffer != null) {
     const blob = new Blob([arrayBuffer], { type: mimeType })
     download(fileName, blob)
+    return
   }
 
   throw new Error('Either arrayBuffer or blob must be provided')
