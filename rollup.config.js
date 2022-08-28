@@ -8,14 +8,14 @@ import visualizer from 'rollup-plugin-visualizer'
 import replace from '@rollup/plugin-replace'
 import { defineConfig } from 'rollup'
 
-const external = ['download-by-a-tag']
+const external = ['get-file-using-a-tag']
 
 const globals = {
-  'download-by-a-tag': 'DownloadByATag'
+  'get-file-using-a-tag': 'DownloadByATag'
 }
 
 const inputSrcs = [
-  ['src/index.ts', 'DownloadByATag', 'download-by-a-tag']
+  ['src/index.ts', 'DownloadByATag', 'get-file-using-a-tag']
 ]
 
 const extensions = ['.js', '.jsx', '.es6', '.es', '.mjs', '.ts', '.tsx']

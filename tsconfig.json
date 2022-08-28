@@ -14,7 +14,7 @@
     "skipLibCheck": true,
     "strict": true,
     "paths": {
-      "download-by-a-tag": ["./src/index.ts"]
+      "get-file-using-a-tag": ["./src/index.ts"]
     }
   },
   "include": ["./src", "./__tests__/**/*"]

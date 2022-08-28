@@ -1,22 +1,22 @@
-# Download by a tag
+# Get file(Download) using a tag
 
 ## Install
 
 ```sh
 # npm
-$ npm install download-by-a-tag
+$ npm install get-file-using-a-tag
 
 # yarn
-$ yarn add download-by-a-tag
+$ yarn add get-file-using-a-tag
 
 # pnpm
-$ pnpm add download-by-a-tag
+$ pnpm add get-file-using-a-tag
 ```
 
 ## Usage
 
 ```ts
-import download from 'download-by-a-tag';
+import download from 'get-file-using-a-tag';
 
 // If you have ArrayBuffer
 download({

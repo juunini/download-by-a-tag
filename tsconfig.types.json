@@ -6,7 +6,7 @@
     "emitDeclarationOnly": true,
     "noEmit": false,
     "paths": {
-      "download-by-a-tag": ["./src/index.ts"]
+      "get-file-using-a-tag": ["./src/index.ts"]
     }
   },
   "files": [

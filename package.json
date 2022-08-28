@@ -1,12 +1,12 @@
 {
-  "name": "download-by-a-tag",
-  "version": "0.0.2",
+  "name": "get-file-using-a-tag",
+  "version": "1.0.0",
   "description": "Download file by 'a' tag",
-  "homepage": "https://github.com/juunini/download-by-a-tag",
-  "repository": "juunini/download-by-a-tag",
+  "homepage": "https://github.com/juunini/get-file-using-a-tag",
+  "repository": "juunini/get-file-using-a-tag",
   "link": true,
   "main": "lib/index.js",
-  "unpkg": "dist/download-by-a-tag.min.js",
+  "unpkg": "dist/get-file-using-a-tag.min.js",
   "types": "lib/index.d.ts",
   "module": "es/index.mjs",
   "scripts": {
