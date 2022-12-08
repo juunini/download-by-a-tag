@@ -14,8 +14,8 @@
     "skipLibCheck": true,
     "strict": true,
     "paths": {
-      "get-file-using-a-tag": ["./src/index.ts"]
+      "get-file-using-a-tag": ["./index.ts"]
     }
   },
-  "include": ["./src", "./__tests__/**/*"]
+  "include": ["./src", "./__tests__/**/*", "index.ts"]
 }

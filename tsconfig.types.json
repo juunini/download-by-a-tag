@@ -2,15 +2,14 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "declaration": true,
-    "declarationDir": "./lib",
-    "emitDeclarationOnly": true,
+    "declarationDir": ".",
+    "emitDeclarationOnly": false,
     "noEmit": false,
     "paths": {
-      "get-file-using-a-tag": ["./src/index.ts"]
+      "get-file-using-a-tag": ["./index.ts"]
     }
   },
   "files": [
-    "./src/index.ts",
-  ],
-  "exclude": ["./src/**/*", "./__tests__/**/*"]
+    "./index.ts",
+  ]
 }

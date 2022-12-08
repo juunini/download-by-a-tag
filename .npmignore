@@ -1,9 +1,6 @@
 /*
-!/README
-!/.gitignore
+!/index.d.ts
+!/index.js
 !/LICENSE
-!/tsconfig.json
 !/package.json
-!/lib
-!/es
-!/dist
+!/README.md
